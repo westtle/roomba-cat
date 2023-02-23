@@ -6,7 +6,7 @@
     --background: #040303;
 
     --border-color: rgba(255, 255, 255, 0.85);
-    --border-main: 0.063rem solid var(--border-color);
+    --border-shorthand: 0.063rem solid var(--border-color);
 
     --seven: 0.438rem; /* 7px */
     --twelve: 0.75rem; /* 12px */
@@ -42,7 +42,7 @@ main {
 .__layer-one,
 ._layer-two,
 video {
-	border: var(--border-main);
+	border: var(--border-shorthand);
 }
 
 ._layer-two {
